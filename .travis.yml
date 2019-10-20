@@ -19,4 +19,4 @@ cache:
 # install:
 #   - npm install
 script:
-  - cypress run --record
+  - cypress run --record --key aee6e55c-582a-4765-9342-b1a5b8a80924
