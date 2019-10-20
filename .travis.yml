@@ -3,6 +3,6 @@ cache:
   directories:
     - ~/.npm
     - ~/.cache
-install: npm install --build-from-
+install: npm install --build-from-source
 script:
   - cypress run --record
