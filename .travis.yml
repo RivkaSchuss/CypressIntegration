@@ -6,7 +6,5 @@ cache:
   directories:
     # we also need to cache folder with Cypress binary
     - ~/.cache
-install:
-  - npm ci
 script:
   - cypress run --record
