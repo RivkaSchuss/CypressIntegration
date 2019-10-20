@@ -1,3 +1,7 @@
 language: node_js
+cache:
+  directories:
+    - ~/.npm
+    - ~/.cache
 script:
   - cypress run --record
