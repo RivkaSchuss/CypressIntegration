@@ -1,6 +1,6 @@
 module.exports = {
 
-    apiKey: 'our api key',
+    apiKey: 'ipnvklZBLcUmg110VwqiLxhJAdjAyrCXtekOCHaHieoZQ110',
 
     appName: 'MariaCasino',
 
