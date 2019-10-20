@@ -5,11 +5,11 @@ before_install:
 cache:
   # Caches $HOME/.npm when npm ci is default script command
   # Caches node_modules in all other cases
-  npm: true
+#  npm: true
   directories:
     # we also need to cache folder with Cypress binary
     - ~/.cache
-install:
-  - npm install
+# install:
+#   - npm install
 script:
   - cypress run --record
