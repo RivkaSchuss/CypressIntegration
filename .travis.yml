@@ -1,9 +1,7 @@
 language: node_js
-addons:
-  apt:
-    packages:
-      # Ubuntu 16+ does not install this dependency by default, so we need to install it ourselves
-      - libgconf-2-4
+before_install:
+  - sudo apt-get update
+  - sudo apt-get install -y libxml2-dev
 cache:
   # Caches $HOME/.npm when npm ci is default script command
   # Caches node_modules in all other cases
