@@ -1,6 +1,6 @@
 describe('Hello Cypress, This is Applitools', () => {
   it('works', () => {
-    cy.visit('https://demo.applitools.com');
+    cy.visit('https://google.com');
     cy.eyesOpen({
       apiKey: 'ipnvklZBLcUmg110VwqiLxhJAdjAyrCXtekOCHaHieoZQ110', 
       appName: 'Hello Cypress, This is Applitools!',
