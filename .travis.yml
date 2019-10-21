@@ -19,5 +19,6 @@ cache:
 # install:
 #   - npm install
 script:
-  - cypress run --record
+ #  - cypress run --record
   - export APPLITOOLS_BATCH_ID=`echo ${TRAVIS_PULL_REQUEST_SHA:=$TRAVIS_COMMIT}`
+ - cypress run --record	
